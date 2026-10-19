@@ -2,7 +2,7 @@
 As the title and the readme says, its a small but powerful script that should fix these "Cookie" games that people tend to talk a lot *wink* *wink*
 # As a little explanation into how this works;
 Some Android games like Cookies won't run on Waydroid because they read the SELinux policy files and the build props, and see things like `lineage`, `su` and `test-keys`. 
-I recreated a fix that the user [@TrixallTR] (https://www.github.com/TrixallTR) did on this [issue comment](https://github.com/waydroid/waydroid/issues/2381#issuecomment-5932869653)
+I recreated a fix that the user [@TrixallTR](https://www.github.com/TrixallTR) did on this [issue comment](https://github.com/waydroid/waydroid/issues/2381#issuecomment-5932869653)
 These are the things the script does:
 - renaming `su` to `dn` and `lineage` to `android` across the SELinux policy files (`system_ext_sepolicy.cil`, `plat_sepolicy.cil`, `plat_pub_versioned.cil`, plus every other `.cil` and `*_contexts` file that mentions them, like `system_ext_service_contexts` and `vendor_hwservice_contexts`)
 - putting the modified files into `overlay_rw`, so the original images stay untouched
