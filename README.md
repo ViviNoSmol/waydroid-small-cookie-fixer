@@ -11,6 +11,7 @@ The script does all of this on every start, also it fixes some problems that cou
 ## Usage
 
 ```bash
+git clone https://github.com/ViviNoSmol/waydroid-small-cookie-fixer.git
 sudo ./waydroid-stealth.sh
 waydroid session start
 sudo ./waydroid-stealth.sh verify
