@@ -41,6 +41,6 @@ sudo zypper install perl attr
 On non-systemd distros you will need to restart `waydroid-container` yourself after running the script.
 
 # IMPORTANT NOTES!
-- Usually, Cookie's Devs don't care a lot about this unless you cheat on your games (please do not) and no one got banned for this, but still, I need to say, i'm NOT responsible for what happens to your account, or if you end up using this script for others games, I don't wanna explicitly mention the game due to obvious reason, but you can still share the script, huge thanks to [@TrixallTR] (https://www.github.com/TrixallTR) for finding this! 
+- Usually, Cookie's Devs don't care a lot about this unless you cheat on your games (please do not) and no one got banned for this, but still, I need to say, i'm NOT responsible for what happens to your account, or if you end up using this script for others games, I don't wanna explicitly mention the game due to obvious reason, but you can still share the script, huge thanks to [@TrixallTR](https://www.github.com/TrixallTR) for finding this! 
 - `ro.lineage.*` props and the binary `precompiled_sepolicy` are left alone on purpose. The first are used by the LineageOS framework, and the second is not loaded when SELinux is disabled in the guest.
 - Not every game checks the same things, so this is not guaranteed to work for everything. Brawl Stars will NOT work with this for example. And I didn't test with games with more agressive anti-cheat, Cookie's Devs just put mostly an anti-SU and anti-lineageos online check.
